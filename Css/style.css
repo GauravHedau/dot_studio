@@ -75,8 +75,9 @@ body {
   margin-top: 20px;
   color: white;
   transition: transform 0.5s ease, opacity 0.5s ease;
-  transform: translateY(100%);
+  transform: translateY(15%);
   opacity: 0;
+  margin-bottom: 10px;
 }
 
 .overlay p {
@@ -84,7 +85,7 @@ body {
   font-size: medium;
   color: white;
   transition: transform 0.5s ease, opacity 0.5s ease;
-  transform: translateY(100%);
+  transform: translateY(15%);
   opacity: 0;
 }
 
@@ -95,7 +96,7 @@ body {
 
 .overlay:hover h2,
 .overlay:hover p {
-  transform: translateY(-50%);
+  transform: translateY(0);
   opacity: 1;
 }
 .overlay:hover p {
